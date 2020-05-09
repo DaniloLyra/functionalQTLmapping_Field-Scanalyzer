@@ -1,6 +1,6 @@
 # **Functional QTL mapping and genomic prediction of canopy height in wheat measured using a robotic field phenotyping platform**
 
-    - [Manuscript webpage - Lyra et al. 2020. Journal of Experimental Botany](https://academic.oup.com/jxb/article/71/6/1885/5757976)
+ [Manuscript webpage - *Lyra et al.* 2020. *Journal of Experimental Botany*, 71(6), 1885-1898](https://academic.oup.com/jxb/article/71/6/1885/5757976)
 
 ### Danilo H. Lyra<sup>1</sup>, Nicolas Virlet<sup>2</sup>, Pouria Sadeghi-Tehran<sup>2</sup>, Kirsty L. Hassall<sup>1</sup>, Luzie U. Wingen<sup>3</sup>, Simon Orford<sup>3</sup>, Simon Griffiths<sup>3</sup>, Malcolm J. Hawkesford<sup>2</sup>, Gancho T. Slavov<sup>1</sup>
 
@@ -17,6 +17,26 @@ mapping population based on up to 26 sampled time points (TPs). These results wi
 ## Readme
 The phenotypic and genotypic data, as well as the R scripts used for all analyses in this study, can be found at Mendeley (Lyra, 2019; https://data.mendeley.com/datasets/pkxpkw6j43/2).
 
+## Table of contents
+1. **Factor-analytic (time series) analysis (phenotypic model) - ASReml-R**
+
+2. **Smoothing and dimensionality reduction - fda-R**
+
+3. **Time point selection**
+     - Systematic (SY) approach - TPs were selected as equally spaced as possible
+     - Growth stage (GS) approach - TPs were allocated preferentially to later stages
+     
+4. **Interval mapping (IM) and composite interval mapping (CIM) - R/qtl**
+    
+5. **Functional QTL mapping - funqtl-R**
+
+6. **Power simulations**
+
+7. **Genomic prediction - GBLUP model - BGLR-R**
+     - Individual TP BLUPs
+     - B-spline coefficients
+     - First functional PCs     
+     
 ## Funding
 Rothamsted Research receives support from the Biotechnology and Biological Sciences Research Council (BBSRC) of the UK as part of the
 Designing Future Wheat Institute Strategic Programme (BB/P016855/1)
