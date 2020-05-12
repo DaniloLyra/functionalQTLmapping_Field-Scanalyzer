@@ -26,7 +26,7 @@ The phenotypic and genotypic data, as well as the R scripts used for all analyse
      - Systematic (SY) approach - TPs were selected as equally spaced as possible
      - Growth stage (GS) approach - TPs were allocated preferentially to later stages
      
-4. **Interval mapping (IM) and composite interval mapping (CIM) - R/qtl**
+4. **Single point scan - interval mapping (IM) and composite interval mapping (CIM) - R/qtl**
     
 5. **Functional QTL mapping - funqtl-R**
 
